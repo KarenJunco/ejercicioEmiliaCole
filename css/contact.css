@@ -1,0 +1,80 @@
+*{
+    margin: 0 auto;
+}
+body{
+    font-family: Open Sans;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul.botones-menu{
+    margin-top: 30px;
+    padding: 15px 10px;
+    text-align: right;
+    font-weight: bold;
+}
+
+ul.botones-menu li{
+    display:inline;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+ul.iconos-redes{
+    text-align: right;
+    margin-right: 10px;
+    margin-top:20px
+}
+ul.iconos-redes a{
+    color: black;
+
+}
+ul li{
+    list-style: none;
+    font-weight: normal;
+}
+
+h1{
+    font-family: Raleway;
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+h2{
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+h4{
+    color: rgb(33, 156, 150);
+    font-size: 18px;
+    font-weight: 600;
+    margin:20px;
+}
+
+.fa-twitter:hover{
+    color: rgb(6, 186, 247);
+}
+
+.fa-facebook-square:hover{
+    color: rgb(70, 70, 241);
+}
+.fa-spotify:hover{
+    color:rgb(22, 206, 22)
+}
+.fa-apple:hover{
+    color: rgb(107, 105, 105);
+}
+.fa-amazon:hover{
+    color:rgb(235, 235, 85)
+}
+.fa-instagram:hover{
+    background: rgb(87,26,224);
+background: linear-gradient(90deg, rgba(87,26,224,1) 0%, rgba(180,36,166,1) 28%, rgba(240,17,17,1) 54%, rgba(247,73,9,1) 76%, rgba(255,199,0,1) 100%);
+}
